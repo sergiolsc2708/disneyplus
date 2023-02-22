@@ -150,3 +150,30 @@ body{
     background-color: var(--botao-azul-efeito);
     color: var(--cor-de-fundo)
 }
+
+@media (max-width: 1200px)
+{
+    .botao_secundario{ flex-direction: column;}
+    .container{ flex-direction: column;}
+    .container_aviso{ flex-direction: column;}
+    .container_botao{ flex-direction: column;}
+    .container_botao_secundario{ flex-direction: column;}
+    .container_caixa{ flex-direction: column;}
+    .container_descricao{ flex-direction: column;}
+    .container_imagem{ flex-direction: column;}
+    .container_titulo{ flex-direction: column;}
+    .descricao_texto{ flex-direction: column;}
+    .descricao_titulo{ flex-direction: column;}
+    .dispositivos{ flex-direction: column;}
+    .dispositivos_lista{ flex-direction: column;}
+    .dispositivos_titulos{ flex-direction: column;}
+    .dispositivos_titulos{ flex-direction: column;}
+    .lista_item{ flex-direction: column;}
+    .lista_link{ flex-direction: column;}
+    .principal{ flex-direction: column;}
+    .rodape{ flex-direction: column;}
+    .rodape_lista{ flex-direction: column;}
+    .rodape_texto{ flex-direction: column;}
+    .secundario{ flex-direction: column;}
+    .secundario_imagem{ flex-direction: column;}
+    }
